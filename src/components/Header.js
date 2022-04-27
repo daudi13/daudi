@@ -39,7 +39,7 @@ const Header = () => {
             Contacts
           </Link>
         </li>
-        <li>
+        <li className="green">  
           <Link to="/">
             Hire me
           </Link>
