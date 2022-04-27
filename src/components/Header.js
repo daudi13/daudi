@@ -1,16 +1,20 @@
 import { Close, MenuOutlined } from "@material-ui/icons";
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
+import "./Header.css"
 
-const Header = () => (
-  <header className="header">
+const Header = () => {
+  const [active, setActive] = useState(false);
+  
+  
+  return(<header className="header">
     <div className="menu-icons">
-      <MenuOutlined className="menu"/>
+      <MenuOutlined className="menu" />
     </div>
-    <nav>
+    <nav className="slider">
       <ul>
         <div className="closed">
-          <Close className="close"/>
+          <Close className="close" />
         </div>
         <li>
           <Link to="/">
@@ -39,7 +43,7 @@ const Header = () => (
         </li>
       </ul>
     </nav>
-  </header>
-)
+  </header>)
+}
 
 export default Header;
