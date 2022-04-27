@@ -37,9 +37,7 @@ function Homepage() {
           </div>
           <img src={myPic} className="pix" alt="David ouma"/>
           </div>
-      </section>
-      <section className="experience">
-      </section>
+      </section> 
       <section className="testimonials">
       </section>
     </div>
