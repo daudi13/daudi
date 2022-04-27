@@ -8,8 +8,12 @@
   position: fixed;
   min-width: 100%;
   height: 100vh;
+  top: -100%;
+  background-color: orange;
+}
+
+.active.slider {
   top: 0;
-  background-color: #000;
 }
 
 .slider ul {

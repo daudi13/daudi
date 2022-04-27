@@ -5,16 +5,19 @@ import "./Header.css"
 
 const Header = () => {
   const [active, setActive] = useState(false);
-  
+
+  const handleMenu = () => {
+    setActive(prevState => prevState ? false : true)
+}
   
   return(<header className="header">
     <div className="menu-icons">
-      <MenuOutlined className="menu" />
+      <MenuOutlined className="menu" onClick={handleMenu}/>
     </div>
-    <nav className="slider">
+    <nav className={active ? 'active slider' : 'slider'}>
       <ul>
         <div className="closed">
-          <Close className="close" />
+          <Close className="close" onClick={handleMenu}/>
         </div>
         <li>
           <Link to="/">
