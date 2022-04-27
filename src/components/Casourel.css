@@ -1,0 +1,15 @@
+.carosel-main {
+  min-width: 900px;
+}
+
+.profilePic {
+  width: 100px;
+}
+
+.text{
+  max-width: 500px;
+  text-align: center;
+  margin: 0;
+  height: 200pc;
+}
+

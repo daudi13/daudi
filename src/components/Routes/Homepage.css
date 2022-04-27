@@ -110,3 +110,7 @@ body {
   width: 250px;
   border-radius: 20px;
 }
+
+.testimonials {
+  margin: 5rem auto;
+}
