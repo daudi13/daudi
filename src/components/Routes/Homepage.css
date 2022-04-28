@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+}
+
+.App {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(-47deg, rgba(0, 0, 0, .6), rgba(148, 48, 48, .6), rgba(167, 67, 67, .95)), url(/src/components/images/dario-bronnimann-hNQwIirOseE-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #fff ;
+}
+
+.intro {
+    position: relative;
+    margin-bottom: 0;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: start;
+}
+
+.align-left {
+    color: white;
+    max-width: 670px;
+    margin: auto;
+    padding: 15px;
+}
+
+.hello {
+  font-size: 63px;
+  color: orange;
+}
+
+.job-des {
+  font-size: 40px;
+}
+
+.belief {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about {
+  color: #fff;
+  text-align: justify;
+  width: 100%;
+  background-color: black;
+  padding: 5rem 0;
+  border-radius: 0 80px 0 80px;
+}
+
+.desc {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.wording {
+  max-width: 600px;
+}
+
+.list {
+  margin: 10px auto;
+  width: 500px;
+}
+
+.list > li + li {
+  margin-top: 8px;
+}
+
+.list li {
+  color: orange;
+  font-size: 14px;
+}
+
+.about-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.line {
+  height: 3px;
+  width: 750px;
+  background-color: #fff;
+}
+
+.pix {
+  width: 250px;
+  border-radius: 20px;
+}
+
+.testimonials {
+  margin: 5rem auto;
+}
+
+.testimonial-title {
+  color: #fff;
+}
