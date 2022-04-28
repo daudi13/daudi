@@ -1,5 +1,4 @@
 
-
 const modals = [{
   modalId: 'con-1',
   name: 'Tonic',
