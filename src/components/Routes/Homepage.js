@@ -1,5 +1,6 @@
 import './Homepage.css';
 import myPic from '../images/20200217_111546(0).jpg'
+import Testimonials from '../Testimonials/Testimonials';
 
 function Homepage() {
   return (
@@ -39,6 +40,7 @@ function Homepage() {
           </div>
       </section> 
       <section className="testimonials">
+        <Testimonials />
       </section>
     </div>
   );
