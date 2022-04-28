@@ -114,3 +114,7 @@ body {
 .testimonials {
   margin: 5rem auto;
 }
+
+.testimonial-title {
+  color: #fff;
+}

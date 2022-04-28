@@ -40,7 +40,7 @@ function Homepage() {
           </div>
       </section> 
       <section className="testimonials">
-        <h2>Testimonials</h2>
+        <h2 className="testimonial-title">Testimonials</h2>
         <Testimonials />
       </section>
     </div>
