@@ -19,8 +19,8 @@ const modals = [{
   imageOneMobile: '../images/SnapshootPortfolio.png',
   order: 'order--one',
   imageOneDesktop: '../images/Card-images/SnapshootPortfolioDesktop1.png',
-  skillSet: updateSkills('html', 'css', 'javaScript'),
-  jobProfile: createProfile('CANOPY', 'Back End Dev', 2018),
+  skillSet: ['html', 'css', 'javaScript'],
+  jobProfile: ['CANOPY', 'Back End Dev', 2018],
 },
 {
   modalId: 'con-2',
