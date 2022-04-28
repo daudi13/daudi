@@ -5,6 +5,7 @@ import emmanuel from '../images/emmanuel.jpeg';
 import nemwel from '../images/nemwel.jpeg';
 import souad from '../images/souad.jpeg';
 import soufiane from '../images/soufiane.jpeg';
+import './Testimonials.css'
 
 const Testimonials = () => {
   return (
