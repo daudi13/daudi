@@ -40,7 +40,9 @@ function Homepage() {
           </div>
       </section> 
       <section className="testimonials">
-        <Casourel />
+        <div className="box">
+          <Casourel />
+        </div>
       </section>
     </div>
   );
