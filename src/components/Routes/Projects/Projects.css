@@ -101,6 +101,10 @@
   display: flex;
 }
 
+.tech {
+  list-style: none;
+}
+
 .tech > * + * {
   margin-left: 8px;
 }
