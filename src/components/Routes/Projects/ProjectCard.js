@@ -1,4 +1,5 @@
 import React from 'react'
+import Jobprofiles from './Jobprofiles'
 import Skillsets from './Skillset'
 
 const ProjectCard = ({name, jobProfile, desc, skillSet, order, imageOneDesktop}) => {
@@ -11,7 +12,9 @@ const ProjectCard = ({name, jobProfile, desc, skillSet, order, imageOneDesktop})
         <img src={imageOneDesktop} alt="card snap" /></div>
       <div className="work-section__card--info">
       <h3 className="project-name">{name}</h3>
-      <div className="range">${jobProfile}
+        <div className="range">{
+          <Jobprofiles jobProfile={jobProfile}/>
+      }
       </div>
       <p className="general__desc">
       {desc}
