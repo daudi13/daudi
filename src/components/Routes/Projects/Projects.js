@@ -1,8 +1,26 @@
-import React from 'react'
+import React from 'react';
+import modals from '../../DataBase/DataBase';
+import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <section className="work-section" id="portfolio">
+      <div className="work-section__box">
+        {
+          modals.map((modal) => (
+            <ProjectCard
+              name={modal.name}
+              jobProfile={modal.jobProfile}
+              desc={modal.desc}
+              skillSet={modal.skillSet}
+              imageOneDesktop={modal.imageOneDesktop}
+              order={modal.order}
+              imageOneMobile={modal.imageOneMobile}
+            />
+          ))
+        }
+      </div>
+    </section>
   )
 }
 
