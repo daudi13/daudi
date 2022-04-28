@@ -8,22 +8,32 @@ import soufiane from '../images/soufiane.jpeg';
 
 const Testimonials = () => {
   return (
-    <Carousel>
-      <div>
-        <img src={souad} alt='souad' />
-        <p className='legend'>Software Developer</p>
-      </div>
-      <div>
-        <img src={emmanuel} alt='souad' />
-        <p className='legend'>Software Developer</p>
-      </div>
-      <div>
-        <img src={nemwel} alt='souad' />
-        <p className='legend'>Software Developer</p>
-      </div>
-      <div>
-        <img src={soufiane} alt='souad' />
-        <p className='legend'>Software Developer</p>
+    <Carousel
+      showArrows={true}
+      infiniteLoop={true}
+      showThumbs={false}
+      showStatus={false}
+      autoPlay={true}
+      interval={6100}
+    >
+      <div className="carosel-wrapper">
+        <div className="myCarousel">
+          <img src={souad} alt='souad' />
+          <h3 className='name'>Souad El Mansouri</h3>
+
+        </div>
+        <div className="myCarousel">
+          <img src={emmanuel} alt='souad' />
+          <h3 className='name'>Souad El Mansouri</h3>
+        </div>
+        <div className="myCarousel">
+          <img src={nemwel} alt='souad' />
+          <h3 className='name'>Souad El Mansouri</h3>
+        </div>
+        <div className="myCarousel">
+          <img src={soufiane} alt='souad' />
+          <h3 className='name'>Souad El Mansouri</h3>
+        </div>
       </div>
     </Carousel>
   )
