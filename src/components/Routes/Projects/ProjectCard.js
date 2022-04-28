@@ -1,11 +1,11 @@
 import React from 'react'
 import Skillsets from './Skillset'
 
-const ProjectCard = ({name, jobProfile, desc, skillSet, imageOneMobile, order, imageOneDesktop}) => {
+const ProjectCard = ({name, jobProfile, desc, skillSet, order, imageOneDesktop}) => {
   return (
     <div className="work-section__card">
       <div className="work-section__card--img mobile">
-        <img src={imageOneMobile} alt="card snap" />
+        <img src={imageOneDesktop} alt="card snap" />
       </div>
       <div className={`work-section__card--img desktop ${order}`}>
         <img src={imageOneDesktop} alt="card snap" /></div>

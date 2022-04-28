@@ -16,7 +16,6 @@ const Projects = () => {
               skillSet={modal.skillSet}
               imageOneDesktop={modal.imageOneDesktop}
               order={modal.order}
-              imageOneMobile={modal.imageOneMobile}
             />
           ))
         }
