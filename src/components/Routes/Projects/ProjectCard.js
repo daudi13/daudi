@@ -18,9 +18,7 @@ const ProjectCard = ({name, jobProfile, desc, skillSet, imageOneMobile, order, i
       </p>
         <ul className="tech">{
             <Skillsets
-            skill1={skillSet[0]}
-            skill2={skillSet[1]}
-            skill3={skillSet[2]}
+            skills={skillSet}
             />
       }</ul>
       <button type="button" className="btn see-project" id="one">See Project</button>

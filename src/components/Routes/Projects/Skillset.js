@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Skillsets = ({skill1, skill2, skill3}) => {
+const Skillsets = ({skills}) => {
   return (
-    <>
-    <li className="tech__type">{skill1}</li>
-    <li className="tech__type">{skill2}</li>
-    <li className="tech__type">{skill3}</li>
+    <>{
+      skills.map((skill, i) => (
+        <li key={i} className="tech__type">{skill}</li>
+      )) 
+    }
     </>
   )
 }

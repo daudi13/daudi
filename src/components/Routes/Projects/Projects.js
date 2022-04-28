@@ -9,6 +9,7 @@ const Projects = () => {
         {
           modals.map((modal) => (
             <ProjectCard
+              key={modal.modalId}
               name={modal.name}
               jobProfile={modal.jobProfile}
               desc={modal.desc}
