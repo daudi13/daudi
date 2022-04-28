@@ -1,15 +1,15 @@
 const updateSkills = (skill1, skill2, skill3) => `
-<li class="tech__type">${skill1}</li>
-<li class="tech__type">${skill2}</li>
-<li class="tech__type">${skill3}</li>
+<li className="tech__type">${skill1}</li>
+<li className="tech__type">${skill2}</li>
+<li className="tech__type">${skill3}</li>
 `;
 
 const createProfile = (project, role, year) => `
-<p class="range__canopy">${project}</p>
-<div class="range__circle"></div>
-<p class="range__txt">${role}</p>
-<div class="range__circle"></div>
-<p class="range__txt">${year}</p>
+<p className="range__canopy">${project}</p>
+<div className="range__circle"></div>
+<p className="range__txt">${role}</p>
+<div className="range__circle"></div>
+<p className="range__txt">${year}</p>
 `;
 
 const modals = [{
