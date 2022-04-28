@@ -1,6 +1,7 @@
-import React from 'react'
-import Jobprofiles from './Jobprofiles'
-import Skillsets from './Skillset'
+import React from 'react';
+import Jobprofiles from './Jobprofiles';
+import Skillsets from './Skillset';
+import './Projects.css'
 
 const ProjectCard = ({name, jobProfile, desc, skillSet, order, imageOneDesktop}) => {
   return (
