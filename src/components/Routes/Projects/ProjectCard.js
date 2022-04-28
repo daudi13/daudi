@@ -9,13 +9,13 @@ const ProjectCard = ({name, jobProfile, desc, skillSet, imageOneMobile, order, i
       <div className={`work-section__card--img desktop ${order}`}>
         <img src={imageOneDesktop} alt="card snap" /></div>
       <div className="work-section__card--info">
-      <h3 className="project-name">${name}</h3>
+      <h3 className="project-name">{name}</h3>
       <div className="range">${jobProfile}
       </div>
       <p className="general__desc">
-      ${desc}
+      {desc}
       </p>
-      <ul className="tech">${skillSet}</ul>
+      <ul className="tech">{skillSet}</ul>
       <button type="button" className="btn see-project" id="one">See Project</button>
       </div>
 </div>
