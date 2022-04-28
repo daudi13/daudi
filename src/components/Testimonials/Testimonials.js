@@ -18,37 +18,44 @@ const Testimonials = () => {
       interval={6100}
     >
         <div>
-          <img src={emmanuel} alt="emmauel" />
+          <img src={emmanuel} alt="Emmanuel Jolugbo" />
           <div className="myCarousel">
-            <h3>Shirley Fultz</h3>
-            <h4>Designer</h4>
+            <h3>Emmanuel Jolugbo</h3>
+            <h4>Software Engineer</h4>
             <p>
-              It's freeing to be able to catch up on customized news and not be
-              distracted by a social media element on the same site
+              David is a fantastic software engineer, and his detail-oriented approach made him a pleasure to work with. We pair-programmed several times together while enrolled at Microverse a software development program, and during that time his work ethic blew me away.
             </p>
           </div>
         </div>
 
         <div>
-          <img src={souad} alt="emma"/>
+          <img src={souad} alt="Souad El Mansouri"/>
           <div className="myCarousel">
-            <h3>Daniel Keystone</h3>
-            <h4>Designer</h4>
+            <h3>Souad El Mansouri</h3>
+            <h4>Full-Stack developer</h4>
             <p>
-              The simple and intuitive design makes it easy for me use. I highly
-              recommend Fetch to my peers.
+              David is a great developer and coding partner. I had an opportunity to build a project with Him through remote paired programming and the experience was one of the best. As a team player, he helps when requested and participates in all group activities making sure the goal of the team is achieved.
             </p>
           </div>
         </div>
 
         <div>
-          <img src={nemwel} alt="emma" />
+          <img src={nemwel} alt="Nemwel Nyandoro" />
           <div className="myCarousel">
-            <h3>Theo Sorel</h3>
-            <h4>Designer</h4>
+            <h3>Nemwel Nyandoro</h3>
+            <h4>Front-end Developer</h4>
             <p>
-              I enjoy catching up with Fetch on my laptop, or on my phone when
-              I'm on the go!
+              David played the role of the team leader in a project that we worked on while students at Microverse and aside from his technical skills his people skills shined. He is an empathetic team leader who understands that things are not always easy for everyone and he uses his communication skills to encourage you and helps you come to par with the rest of the team.
+            </p>
+          </div>
+      </div>
+              <div>
+          <img src={soufiane} alt="Soufiane Boursen" />
+          <div className="myCarousel">
+            <h3>Soufiane Boursen</h3>
+            <h4>Full-Stack developer</h4>
+            <p>
+              When I think of David, the first thing that comes to mind is Solid Foundations. He is always striving to use the best practices in his websites, writing good quality code all while meeting deadlines. He is a diligent programmer, with a keen eye for details, and a goal-oriented mindset.
             </p>
           </div>
         </div>
