@@ -10,7 +10,7 @@ const ProjectCard = ({name, jobProfile, desc, skillSet, order, imageOneDesktop})
         <img src={imageOneDesktop} alt="card snap" />
       </div>
       <div className={`work-section__card--img desktop ${order}`}>
-        <img src={imageOneDesktop} alt="card snap" /></div>
+        <img src={imageOneDesktop} className="image" alt="card snap" /></div>
       <div className="work-section__card--info">
       <h3 className="project-name">{name}</h3>
         <div className="range">{

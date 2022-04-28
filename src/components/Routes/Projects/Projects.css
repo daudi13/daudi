@@ -29,6 +29,10 @@
   display: none;
 }
 
+.work-section__card--info  {
+  width: 50%;
+}
+
 .work-section__card--info > * + * {
   margin-top: 12px;
 }
@@ -212,5 +216,6 @@ button:hover {
   .range > .desktop {
     display: block;
   }
+  
 
 }
