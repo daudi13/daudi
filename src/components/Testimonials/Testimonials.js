@@ -45,7 +45,7 @@ const Testimonials = () => {
             <h3>Nemwel Nyandoro</h3>
             <h4>Front-end Developer</h4>
             <p>
-              David played the role of the team leader in a project that we worked on while students at Microverse and aside from his technical skills his people skills shined. He is an empathetic team leader who understands that things are not always easy for everyone and he uses his communication skills to encourage you and helps you come to par with the rest of the team.
+              David played the role of the team leader in a project that we worked on while students at Microverse and aside from his technical skills his people skills shined. He is an empathetic team leader who understands things that are not always easy for everyone...
             </p>
           </div>
       </div>

@@ -25,6 +25,7 @@
   padding-top: 6%;
   padding-bottom: 8%;
   height: 286px;
+  font-family: "Poppins",sans-serif;
 }
 
 .carousel .control-dots {
@@ -57,7 +58,6 @@
   line-height: 20px !important;
   color: #222;
   font-size: 15px;
-  font-family: sans-serif;
   max-height: 67px;
 }
 
@@ -65,7 +65,6 @@
   content: "“";
   color: #aaa;
   font-size: 26px;
-  font-family: monospace;
   font-weight: 100;
 }
 
@@ -73,7 +72,6 @@
   content: "”";
   color: #aaa;
   font-size: 26px;
-  font-family: monospace;
   font-weight: 100;
   line-height: 0;
 }
