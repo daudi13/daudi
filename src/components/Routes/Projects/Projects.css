@@ -7,6 +7,10 @@
   transition: all 0.5s ease-in-out;
 }
 
+.work-section > ul li {
+  list-style: none;
+}
+
 .work-section > * + * {
   margin-top: 88px;
 }
@@ -133,4 +137,80 @@ button:hover {
 
 .work-section__card--info > .btn {
   margin-top: 20px;
+}
+
+@media screen and (min-width: 958px) {
+  .work-section {
+    padding: 142px;
+  }
+
+  .work-section > .work-section__box {
+    margin: 0;
+    padding: 0;
+  }
+
+  .work-section__card {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+    max-width: 1156px;
+    margin: 0 auto;
+    align-items: stretch;
+  }
+
+  .work-section__card.active {
+    display: none !important;
+  }
+
+  .work-section__card > .mobile {
+    display: none;
+  }
+
+  .work-section__card > .desktop {
+    display: block;
+  }
+
+  .work-section__card > .order--two {
+    order: 2;
+    align-self: flex-start;
+  }
+
+  .work-section__card > .work-section__card--info {
+    padding: 24px;
+  }
+
+  .work-section__card--info > .project-name {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 52px;
+  }
+
+  .work-section__card--info > .mobile {
+    display: none;
+  }
+
+  .work-section__card--info > .desktop {
+    display: block;
+  }
+
+  .range > .range__canopy {
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 0;
+  }
+
+  .range > .mobile {
+    display: none;
+  }
+
+  .range > .range__txt {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .range > .desktop {
+    display: block;
+  }
+
 }
