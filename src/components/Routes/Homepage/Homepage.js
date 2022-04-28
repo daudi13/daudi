@@ -1,6 +1,6 @@
+import Testimonials from '../../Testimonials/Testimonials';
 import './Homepage.css';
-import myPic from '../images/20200217_111546(0).jpg'
-import Testimonials from '../Testimonials/Testimonials';
+import myPic from '/home/daudi13/Microverse-Projects/react-portfolio/src/components/images/20200217_111546(0).jpg'
 
 function Homepage() {
   return (
