@@ -1,16 +1,4 @@
-const updateSkills = (skill1, skill2, skill3) => `
-<li className="tech__type">${skill1}</li>
-<li className="tech__type">${skill2}</li>
-<li className="tech__type">${skill3}</li>
-`;
 
-const createProfile = (project, role, year) => `
-<p className="range__canopy">${project}</p>
-<div className="range__circle"></div>
-<p className="range__txt">${role}</p>
-<div className="range__circle"></div>
-<p className="range__txt">${year}</p>
-`;
 
 const modals = [{
   modalId: 'con-1',
@@ -29,8 +17,8 @@ const modals = [{
   imageOneMobile: './images/SnapshootPortfolio(1).png',
   order: 'order--two',
   imageOneDesktop: '../images/Card-images/SnapshootPortfolioDesktop2.png',
-  skillSet: updateSkills('html', 'css', 'javaScript'),
-  jobProfile: createProfile('CANOPY', 'Back End Dev', 2018),
+  skillSet: ['html', 'css', 'javaScript'],
+  jobProfile: ['CANOPY', 'Back End Dev', 2018],
 },
 {
   modalId: 'con-3',
@@ -39,8 +27,8 @@ const modals = [{
   imageOneMobile: './images/SnapshootPortfolio(2).png',
   order: 'order--one',
   imageOneDesktop: '../images/Card-images/SnapshootPortfolioDesktop3.png',
-  skillSet: updateSkills('html', 'css', 'javaScript'),
-  jobProfile: createProfile('CANOPY', 'Back End Dev', 2018),
+  skillSet: ['html', 'css', 'javaScript'],
+  jobProfile: ['CANOPY', 'Back End Dev', 2018],
 },
 {
   modalId: 'con-4',
@@ -49,8 +37,8 @@ const modals = [{
   imageOneMobile: './images/SnapshootPortfolio(3).png',
   order: 'order--two',
   imageOneDesktop: '../images/Card-images/SnapshootPortfolioDesktop4.png',
-  skillSet: updateSkills('html', 'css', 'javaScript'),
-  jobProfile: createProfile('CANOPY', 'Back End Dev', 2018),
+  skillSet: ['html', 'css', 'javaScript'],
+  jobProfile: ['CANOPY', 'Back End Dev', 2018],
   }];
 
 export default modals;

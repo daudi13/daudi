@@ -1,4 +1,5 @@
 import React from 'react'
+import Skillsets from './Skillset'
 
 const ProjectCard = ({name, jobProfile, desc, skillSet, imageOneMobile, order, imageOneDesktop}) => {
   return (
@@ -15,7 +16,13 @@ const ProjectCard = ({name, jobProfile, desc, skillSet, imageOneMobile, order, i
       <p className="general__desc">
       {desc}
       </p>
-      <ul className="tech">{skillSet}</ul>
+        <ul className="tech">{
+            <Skillsets
+            skill1={skillSet[0]}
+            skill2={skillSet[1]}
+            skill3={skillSet[2]}
+            />
+      }</ul>
       <button type="button" className="btn see-project" id="one">See Project</button>
       </div>
 </div>
