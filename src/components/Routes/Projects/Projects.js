@@ -16,6 +16,8 @@ const Projects = () => {
               skillSet={modal.skillSet}
               imageOneDesktop={modal.imageOneDesktop}
               order={modal.order}
+              liveDemo={modal.liveDemo}
+              gitHub={modal.gitHub}
             />
           ))
         }

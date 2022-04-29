@@ -108,6 +108,10 @@
   color: #344563;
 }
 
+.btn-one {
+  margin-right: 20px;
+}
+
 .work-section__card--info > .tech {
   display: flex;
 }
