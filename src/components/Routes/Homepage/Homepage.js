@@ -50,12 +50,12 @@ function Homepage() {
           In my 3 years of experience in web development, I've developed extensive knowledge in :
         </p>
         <ul className="list">
-          <li> Front-end development: ReactJS | Vanilla Javascript| API | Apollo Client</li>
-          <li>Styling: Styled-components | SASS | CSS-in-JS | Bootstrap </li>
+          <li> Front-end development: ReactJS, Vannilla Javascript, API</li>
+          <li>Styling: Styled-components, SASS, CSS-in-JS, Bootstrap </li>
           <li>Pair programming and remote working</li>
-          <li>Version Control: GIT | Github</li>
-          <li>Product management: Figma | wireframing</li>
-          <li>Hosting: Heroku | Githubpages | Vercel | Netlify </li>
+          <li>Version Control : GIT, Github</li>
+          <li>Product management : Figma, wireframing</li>
+          <li>Hosting : Heroku, Githubpages, Vercel, Netlify </li>
         </ul>
         <p className="belief">
           I'm passionate about sharing knowledge, implementing product designs and solving problems using front-end technologies. I'm also a team-player and I'm always looking forward to join a passionate team of developers. At the moment I'm open to Front-end opportunities in small start-ups as well a big companies.
