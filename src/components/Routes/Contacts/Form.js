@@ -9,7 +9,7 @@ const Form = () => {
       <textarea cols="30" rows="10" maxlength="500" id="message" placeholder="Write your message here" required></textarea>
       <div class="btn__submit">
         <p class="callAction"></p>
-        <button type="submit">Get in touch</button>
+        <button type="submit" className="btn btn__submit">Get in touch</button>
       </div>
       </form>
   </>
