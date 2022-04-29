@@ -1,3 +1,4 @@
+import { GitHub, LinkedIn, Mail, Twitter } from '@material-ui/icons';
 import Testimonials from '../../Testimonials/Testimonials';
 import './Homepage.css';
 import myPic from '/home/daudi13/Microverse-Projects/react-portfolio/src/components/images/20200217_111546(0).jpg'
@@ -12,7 +13,31 @@ function Homepage() {
                 <p className="belief">
                     "I believe in diverse skill sets and people as they make products and communities unique. As a developer I believe in changing the world using technology and improving individuals to be better versions of themselves by supporting small businesses and community based organizations with an aim of making the blue planet a better place for each and everyone of us."
                 </p>
-            </div>
+        </div>
+        <div className="socials">
+          <ul>
+            <li>
+            <a href="https://github.com/daudi13" rel="noreferrer" target="_blank">
+            <GitHub />
+          </a>
+            </li>
+            <li>
+            <a href="mailto:davouma13@gmail.com" rel="noreferrer" target="_blank">
+            <LinkedIn />
+          </a>
+            </li>
+            <li>
+            <a href="mailto:davouma13@gmail.com" rel="noreferrer" target="_blank">
+            <Mail />
+          </a>
+            </li>
+            <li>
+            <a href="https://github.com/daudi13" rel="noreferrer" target="_blank">
+            <Twitter />
+          </a>
+            </li>
+          </ul>
+        </div>
       </section>
       <section className="about">
         <div className="about-title"><h2>About Me</h2><span><hr className="line"/></span></div>
