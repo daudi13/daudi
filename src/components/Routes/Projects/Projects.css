@@ -15,6 +15,10 @@
   margin-top: 88px;
 }
 
+.work-section__box {
+  overflow-x: hidden;
+}
+
 .work-section__card {
   padding: 16px 16px 28px 16px;
   display: flex;
@@ -22,7 +26,9 @@
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  margin: 0 auto;
   align-items: center;
+  width: 95%;
 }
 
 .work-section__card > .desktop {
@@ -45,6 +51,11 @@
   color: #172b4d;
   font-size: 32px;
   word-wrap: break-word;
+}
+
+.image {
+  max-width: 350px;
+  border-radius: 10px;
 }
 
 .work-section__card--info > .range {
@@ -97,6 +108,10 @@
   color: #344563;
 }
 
+.btn-one {
+  margin-right: 20px;
+}
+
 .work-section__card--info > .tech {
   display: flex;
 }
@@ -145,6 +160,11 @@ button:hover {
 
 .work-section__card--info > .btn {
   margin-top: 20px;
+}
+
+.image-mobile {
+  width: 400px;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 958px) {
@@ -220,6 +240,11 @@ button:hover {
 
   .range > .desktop {
     display: block;
+  }
+
+  .image {
+    max-width: 450px;
+    border-radius: 10px;
   }
   
 
