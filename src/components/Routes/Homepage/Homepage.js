@@ -9,8 +9,8 @@ function Homepage() {
       <section className="intro" id="home">
             <div className="align-left" data-aos="zoom-in">
                 <h1 className="hello">Hello, I'm David Ouma,</h1>
-                <h2 className="job-des">A <span className="special ">Front-end Developer</span></h2>
-                <p className="belief">
+                <h2 className="job-des">a <span className="special ">Front-end Developer</span></h2>
+                <p className="belief openner">
                     "I'm passionate about sharing knowledge, implementing product designs and solving problems using front-end technologies. I'm also a team-player and I'm always looking forward to join a passionate team of developers. At the moment I'm open to Front-end opportunities in small start-ups as well a big companies"
                 </p>
         </div>

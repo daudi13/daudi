@@ -141,3 +141,46 @@ body {
 .testimonial-title {
   color: #fff;
 }
+
+@media screen and (max-width: 759px) {
+
+  .intro {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+
+  .hello {
+    font-size: 22px;
+    color: #fff;
+  }
+
+  .job-des {
+    font-size: 20px;
+  }
+
+  .special {
+    color: orange;
+    font-size: 30px;
+  }
+
+  .belief {
+    font-size: 14px;
+  }
+
+  .align-left {
+    margin-bottom: 20px;
+  }
+
+  .socials > ul {
+    display: flex;
+  }
+
+  .socials > ul > * + * {
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+
+  .social-icon {
+    font-size: 35px !important;
+  }
+}
