@@ -1,7 +1,11 @@
 .header {
   font-family: 'Poppins', sans-serif;
-  background-color: rgba(128, 133, 223, 0.4);
+  background-color: rgba(128, 133, 223, 1);
   overflow: hidden;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 .slider ul {
