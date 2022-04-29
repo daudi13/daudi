@@ -30,7 +30,7 @@
 }
 
 .work-section__card--info  {
-  width: 50%;
+  width: 100%;
 }
 
 .work-section__card--info > * + * {
@@ -185,6 +185,7 @@ button:hover {
 
   .work-section__card > .work-section__card--info {
     padding: 24px;
+    width: 50% !important;
   }
 
   .work-section__card--info > .project-name {

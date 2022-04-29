@@ -5,6 +5,7 @@
   position: fixed;
   right: 0;
   left: 0;
+  top: 0;
   z-index: 1000;
 }
 
@@ -35,7 +36,7 @@ ul li a  {
 .menu-icons .menu {
   display: none;
   color: #fff;
-  font-size: 60px;
+  font-size: 40px !important;
   cursor: pointer;
 }
 
@@ -99,7 +100,7 @@ ul li a  {
   display: flex;
   cursor: pointer;
   color: #fff;
-  justify-content: flex-start;
+  justify-content: flex-end;
   width: 100%; 
 }
 

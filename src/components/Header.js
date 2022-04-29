@@ -20,17 +20,17 @@ const Header = () => {
           <Close className="close" onClick={handleMenu}/>
         </div>
         <li>
-          <Link to="/">
+          <Link to="/" onClick={handleMenu}>
             About
           </Link>
         </li>
         <li>
-          <Link to="/Projects">
+          <Link to="/Projects" onClick={handleMenu}>
             Projects
           </Link>
         </li>
         <li>
-          <Link to="/Contacts">
+          <Link to="/Contacts" onClick={handleMenu}>
             Contacts
           </Link>
         </li>

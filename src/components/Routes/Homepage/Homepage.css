@@ -141,3 +141,83 @@ body {
 .testimonial-title {
   color: #fff;
 }
+
+@media screen and (max-width: 759px) {
+
+  .intro {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+
+  .hello {
+    font-size: 22px;
+    color: #fff;
+    line-height: 0px;
+    text-align: center;
+  }
+
+  .job-des {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .openner {
+    text-align: center;
+  }
+
+  .special {
+    color: orange;
+    font-size: 30px;
+  }
+
+  .belief {
+    font-size: 14px;
+  }
+
+  .align-left {
+    margin-bottom: 20px;
+  }
+
+  .socials > ul {
+    display: flex;
+  }
+
+  .socials > ul > * + * {
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+
+  .social-icon {
+    font-size: 35px !important;
+  }
+
+  .about-desc {
+    text-align: center;
+  }
+
+  .desc {
+    width: 90%;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .list {
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  .list > li {
+    font-size: 13px;
+  }
+
+  .pix {
+    display: none;
+  }
+
+  .section-two {
+    display: none;
+  }
+}

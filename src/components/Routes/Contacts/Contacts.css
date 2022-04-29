@@ -55,5 +55,10 @@ textarea {
   border: 1px solid #fff;
 }
 
+@media screen and (max-width: 957px) {
+  .contact-form-section {
+    margin: 50px 20px 0;
+  } 
+}
 
 

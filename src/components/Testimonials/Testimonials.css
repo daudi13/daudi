@@ -89,15 +89,11 @@
   top: 50% !important;
 }
 
-.App {
-  text-align: center;
-}
-
 @media only screen and (max-width: 934px) {
   .carousel-root {
     outline: 0;
-    width: 93% !important;
-    margin: auto !important;
+    width: 350px !important;
+    margin: 50px auto !important;
   }
 
   .carousel.carousel-slider .control-arrow {
@@ -109,14 +105,26 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 8%;
-    padding-bottom: 12.5%;
+    padding-bottom: 0%;
     padding-left: 5%;
     padding-right: 5%;
     height: 269px;
   }
 
+  .carousel {
+    height: 500px !important;
+  }
+
+  .carousel .slide {
+    height: 55% !important;
+  }
+
   .carousel .slide img {
     width: 24% !important;
     border-radius: 50%;
+  }
+
+  .testimonial-title {
+    text-align: center;
   }
 }
