@@ -33,7 +33,6 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column;
 }
 
 .align-left {
@@ -56,6 +55,18 @@ body {
   text-align: justify;
   font-size: 18px;
   line-height: 1.5;
+}
+
+.socials {
+  padding-right: 3rem;
+}
+
+.socials > ul {
+  list-style: none;
+}
+
+.socials > ul > * + * {
+  margin-top: 40px;
 }
 
 .about {
