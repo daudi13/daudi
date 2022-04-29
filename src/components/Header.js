@@ -14,7 +14,7 @@ const Header = () => {
     <div className="menu-icons">
       <MenuOutlined className="menu" onClick={handleMenu}/>
     </div>
-    <nav className={active ? 'active slider' : 'slider'} onClick={handleMenu}>
+    <nav className={active ? 'active slider' : 'slider'}>
       <ul>
         <div className="closed">
           <Close className="close" onClick={handleMenu}/>
@@ -35,7 +35,7 @@ const Header = () => {
           </Link>
         </li>
         <li className="green">  
-          <Link to="./https://www.google.com/" onClick={handleMenu}>
+          <Link to="./https://www.google.com/">
             Hire me
           </Link>
         </li>
