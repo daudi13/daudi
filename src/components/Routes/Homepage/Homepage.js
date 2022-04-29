@@ -8,32 +8,32 @@ function Homepage() {
     <div className="App">
       <section className="intro" id="home">
             <div className="align-left" data-aos="zoom-in">
-                <h1 className="hello">Hello, I'm David,</h1>
+                <h1 className="hello">Hello, I'm David Ouma,</h1>
                 <h2 className="job-des">A <span className="special ">Front-end Developer</span></h2>
                 <p className="belief">
-                    "I believe in diverse skill sets and people as they make products and communities unique. As a developer I believe in changing the world using technology and improving individuals to be better versions of themselves by supporting small businesses and community based organizations with an aim of making the blue planet a better place for each and everyone of us."
+                    "I'm passionate about sharing knowledge, implementing product designs and solving problems using front-end technologies. I'm also a team-player and I'm always looking forward to join a passionate team of developers. At the moment I'm open to Front-end opportunities in small start-ups as well a big companies"
                 </p>
         </div>
         <div className="socials">
           <ul>
             <li>
             <a href="https://github.com/daudi13" rel="noreferrer" target="_blank">
-            <GitHub />
+            <GitHub className="social-icon"/>
+          </a>
+            </li>
+            <li>
+            <a href="https://www.linkedin.com/in/david-owour-ouma/" rel="noreferrer" target="_blank">
+            <LinkedIn className="social-icon" />
           </a>
             </li>
             <li>
             <a href="mailto:davouma13@gmail.com" rel="noreferrer" target="_blank">
-            <LinkedIn />
+            <Mail className="social-icon"/>
           </a>
             </li>
             <li>
-            <a href="mailto:davouma13@gmail.com" rel="noreferrer" target="_blank">
-            <Mail />
-          </a>
-            </li>
-            <li>
-            <a href="https://github.com/daudi13" rel="noreferrer" target="_blank">
-            <Twitter />
+            <a href="https://twitter.com/davouma" rel="noreferrer" target="_blank">
+            <Twitter className="social-icon"/>
           </a>
             </li>
           </ul>

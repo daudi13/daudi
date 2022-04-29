@@ -11,6 +11,11 @@ img {
 body {
   font-family: 'Poppins', sans-serif;
   background-color: black;
+  background: linear-gradient(-47deg, rgba(0, 0, 0, .5), rgba(148, 48, 48, .5), rgba(167, 67, 67, .95)), url(/src/components/images/eberhard-grossgasteiger-YBPIQ3JPdvo-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #fff ;
 }
 
 .App {
@@ -20,10 +25,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: linear-gradient(-47deg, rgba(0, 0, 0, .6), rgba(148, 48, 48, .6), rgba(167, 67, 67, .95)), url(/src/components/images/dario-bronnimann-hNQwIirOseE-unsplash.jpg) no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: #fff ;
 }
 
 .intro {
@@ -43,7 +44,7 @@ body {
 }
 
 .hello {
-  font-size: 63px;
+  font-size: 53px;
   color: orange;
 }
 
@@ -69,13 +70,23 @@ body {
   margin-top: 40px;
 }
 
+.social-icon {
+  font-size: 55px !important;
+  transition: transform 0.35s ease-in-out !important;
+}
+
+.social-icon:hover {
+  color: orange !important;
+  transform: translateX(-10px);
+}
+
 .about {
   color: #fff;
   text-align: justify;
   width: 100%;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
   padding: 5rem 0;
-  border-radius: 0 80px 0 80px;
 }
 
 .desc {
