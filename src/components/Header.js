@@ -25,22 +25,17 @@ const Header = () => {
           </Link>
         </li>
         <li>
-          <Link to="/">
-            Experience
-          </Link>
-        </li>
-        <li>
           <Link to="/Projects">
             Projects
           </Link>
         </li>
         <li>
-          <Link to="/">
+          <Link to="/Contacts">
             Contacts
           </Link>
         </li>
         <li className="green">  
-          <Link to="/">
+          <Link to="./https://www.google.com/">
             Hire me
           </Link>
         </li>

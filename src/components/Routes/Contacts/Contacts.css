@@ -1,0 +1,59 @@
+
+.contact-form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.outro__box {
+  max-width: 700px;
+}
+.contact-form__container > .outro__box {
+  text-align: center;
+}
+
+.white {
+  color: #fff !important;
+}
+
+form {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form > label {
+  width: 100%;
+}
+
+form > label + label {
+  margin-top: 20px;
+}
+
+label > input,
+textarea {
+  width: 100%;
+  padding: 15px 16px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+textarea {
+  margin-top: 20px !important;
+}
+
+.btn__submit > button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+
+
