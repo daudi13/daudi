@@ -3,7 +3,7 @@ import Jobprofiles from './Jobprofiles';
 import Skillsets from './Skillset';
 import './Projects.css'
 
-const ProjectCard = ({name, jobProfile, desc, skillSet, order, imageOneDesktop}) => {
+const ProjectCard = ({name, jobProfile, desc, skillSet, order, imageOneDesktop, liveDemo, gitHub}) => {
   return (
     <div className="work-section__card">
       <div className="work-section__card--img mobile">
@@ -25,7 +25,8 @@ const ProjectCard = ({name, jobProfile, desc, skillSet, order, imageOneDesktop})
             skills={skillSet}
             />
       }</ul>
-      <button type="button" className="btn see-project" id="one">See Project</button>
+      <a href={liveDemo} className="btn see-project btn-one" id="one">live Demo</a>
+      <a href={gitHub} className="btn see-project" id="one">get Code</a>
       </div>
 </div>
   )
