@@ -152,10 +152,18 @@ body {
   .hello {
     font-size: 22px;
     color: #fff;
+    line-height: 0px;
+    text-align: center;
   }
 
   .job-des {
     font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .openner {
+    text-align: center;
   }
 
   .special {
@@ -184,6 +192,10 @@ body {
     font-size: 35px !important;
   }
 
+  .about-desc {
+    text-align: center;
+  }
+
   .desc {
     width: 90%;
   }
@@ -202,6 +214,10 @@ body {
   }
 
   .pix {
+    display: none;
+  }
+
+  .section-two {
     display: none;
   }
 }
