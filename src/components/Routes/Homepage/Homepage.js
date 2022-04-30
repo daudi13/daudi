@@ -59,6 +59,7 @@ function Homepage() {
           <li>Version Control : GIT, Github</li>
           <li>Product management : Figma, wireframing</li>
           <li>Hosting : Heroku, Githubpages, Vercel, Netlify </li>
+          <li>Research : Google, Stack-overflow, Medium articles </li>
         </ul>
         <p className="belief section-two">
           I believe in diverse skill sets and people as they make products and communities unique. As a developer I believe in changing the world using technology and improving individuals to be better versions of themselves by supporting small businesses and community based organizations with an aim of making the blue planet a better place for each and everyone of us.
