@@ -1,7 +1,6 @@
 import { GitHub, LinkedIn, Mail, Twitter } from '@material-ui/icons';
 import Testimonials from '../../Testimonials/Testimonials';
 import './Homepage.css';
-import myPic from '/home/daudi13/Microverse-Projects/react-portfolio/src/components/images/20200217_111546(0).jpg'
 
 function Homepage() {
   return (
@@ -58,10 +57,10 @@ function Homepage() {
           <li>Hosting : Heroku, Githubpages, Vercel, Netlify </li>
         </ul>
         <p className="belief section-two">
-          I'm passionate about sharing knowledge, implementing product designs and solving problems using front-end technologies. I'm also a team-player and I'm always looking forward to join a passionate team of developers. At the moment I'm open to Front-end opportunities in small start-ups as well a big companies.
+          I believe in diverse skill sets and people as they make products and communities unique. As a developer I believe in changing the world using technology and improving individuals to be better versions of themselves by supporting small businesses and community based organizations with an aim of making the blue planet a better place for each and everyone of us.
             </p>
           </div>
-          <img src={myPic} className="pix" alt="David ouma"/>
+          <img src='../images/20200217_111546(0).jpg' className="pix" alt="David ouma"/>
           </div>
       </section> 
       <section className="testimonials">

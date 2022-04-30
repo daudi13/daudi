@@ -89,6 +89,10 @@
   top: 50% !important;
 }
 
+.testimonial-title {
+  text-align: center;
+}
+
 @media only screen and (max-width: 934px) {
   .carousel-root {
     outline: 0;
@@ -124,7 +128,4 @@
     border-radius: 50%;
   }
 
-  .testimonial-title {
-    text-align: center;
-  }
 }
