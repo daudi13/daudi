@@ -35,9 +35,9 @@ const Header = () => {
           </Link>
         </li>
         <li className="green">  
-          <Link to="./https://www.google.com/">
+          <a href="https://docs.google.com/document/d/1MsR-jqkGn9NEIxPS5ftDGdFUnQRi9t03gT0d9fXtyMU/edit?usp=sharing" target="_blank" rel="noreferrer">
             Hire me
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>
