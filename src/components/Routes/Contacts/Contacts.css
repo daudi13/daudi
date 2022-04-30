@@ -26,6 +26,7 @@ form {
 
 form > label {
   width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 form > label + label {
@@ -43,6 +44,7 @@ textarea {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 textarea {
@@ -53,6 +55,11 @@ textarea {
   background-color: #6070ff;
   color: #fff;
   border: 1px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.active {
+  color: orange;
 }
 
 @media screen and (max-width: 957px) {
