@@ -6,7 +6,7 @@ import { Fade } from 'react-awesome-reveal';
 
 const ProjectCard = ({name, jobProfile, desc, skillSet, order, imageOneDesktop, liveDemo, gitHub}) => {
   return (
-    <Fade delay="20">
+    <Fade cascade delay="27">
     <div className="work-section__card">
       <div className="work-section__card--img mobile">
         <img src={imageOneDesktop} className="image-mobile" alt="card snap" />
