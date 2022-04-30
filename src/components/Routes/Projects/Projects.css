@@ -242,7 +242,7 @@ button:hover {
     display: block;
   }
 
-  .image {
+  .image-desktop {
     max-width: 450px;
     border-radius: 10px;
   }
