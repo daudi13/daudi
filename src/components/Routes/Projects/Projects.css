@@ -29,7 +29,7 @@
   margin: 0 auto;
   align-items: center;
   width: 95%;
-  box-shadow: ;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .work-section__card > .desktop {
