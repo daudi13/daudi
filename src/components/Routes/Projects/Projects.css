@@ -19,6 +19,18 @@
   overflow-x: hidden;
 }
 
+.work-section__title {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
+.work-section__sub-title {
+  text-align: center;
+  color: rgb(255, 230, 0);
+  margin: 0;
+}
+
 .work-section__card {
   padding: 16px 16px 28px 16px;
   display: flex;
@@ -29,6 +41,7 @@
   margin: 0 auto;
   align-items: center;
   width: 95%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .work-section__card > .desktop {
@@ -242,7 +255,7 @@ button:hover {
     display: block;
   }
 
-  .image {
+  .image-desktop {
     max-width: 450px;
     border-radius: 10px;
   }

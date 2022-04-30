@@ -1,4 +1,5 @@
 import { GitHub, LinkedIn, Mail, Twitter } from '@material-ui/icons';
+import { AttentionSeeker, Slide, Zoom } from 'react-awesome-reveal';
 import Testimonials from '../../Testimonials/Testimonials';
 import './Homepage.css';
 
@@ -6,13 +7,14 @@ function Homepage() {
   return (
     <div className="App">
       <section className="intro" id="home">
-            <div className="align-left" data-aos="zoom-in">
+            <div className="align-left">
                 <h1 className="hello">Hello, I'm David Ouma,</h1>
                 <h2 className="job-des">a <span className="special ">Front-end Developer</span></h2>
                 <p className="belief openner">
                     "I'm passionate about sharing knowledge, implementing product designs and solving problems using front-end technologies. I'm also a team-player and I'm always looking forward to join a passionate team of developers. At the moment I'm open to Front-end opportunities in small start-ups as well a big companies"
                 </p>
         </div>
+        <AttentionSeeker delay="20">
         <div className="socials">
           <ul>
             <li>
@@ -37,10 +39,12 @@ function Homepage() {
             </li>
           </ul>
         </div>
+        </AttentionSeeker>
       </section>
       <section className="about">
         <div className="about-title"><h2>About Me</h2><span><hr className="line"/></span></div>
         <div className="desc">
+          <Slide>
           <div className="wording">
         <p className="belief about-desc">
           I'm a front-end developer who enjoys bringing ideas to life by translating web designs and wireframes to functional websites. I'm also an effective developer who brings out the vision and executes the strategy with minimal resources
@@ -55,12 +59,16 @@ function Homepage() {
           <li>Version Control : GIT, Github</li>
           <li>Product management : Figma, wireframing</li>
           <li>Hosting : Heroku, Githubpages, Vercel, Netlify </li>
+          <li>Research : Google, Stack-overflow, Medium articles </li>
         </ul>
         <p className="belief section-two">
           I believe in diverse skill sets and people as they make products and communities unique. As a developer I believe in changing the world using technology and improving individuals to be better versions of themselves by supporting small businesses and community based organizations with an aim of making the blue planet a better place for each and everyone of us.
             </p>
           </div>
+          </Slide>
+          <Zoom>
           <img src='../images/20200217_111546(0).jpg' className="pix" alt="David ouma"/>
+          </Zoom>
           </div>
       </section> 
       <section className="testimonials">
