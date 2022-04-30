@@ -1,0 +1,264 @@
+.work-section > .work-section__box {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 88px;
+  margin: 88px 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.work-section > ul li {
+  list-style: none;
+}
+
+.work-section > * + * {
+  margin-top: 88px;
+}
+
+.work-section__box {
+  overflow-x: hidden;
+}
+
+.work-section__title {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
+.work-section__sub-title {
+  text-align: center;
+  color: rgb(255, 230, 0);
+  margin: 0;
+}
+
+.work-section__card {
+  padding: 16px 16px 28px 16px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin: 0 auto;
+  align-items: center;
+  width: 95%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.work-section__card > .desktop {
+  display: none;
+}
+
+.work-section__card--info  {
+  width: 100%;
+}
+
+.work-section__card--info > * + * {
+  margin-top: 12px;
+}
+
+.work-section__card--info > .project-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 44px;
+  color: #172b4d;
+  font-size: 32px;
+  word-wrap: break-word;
+}
+
+.image {
+  max-width: 350px;
+  border-radius: 10px;
+}
+
+.work-section__card--info > .range {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.range > * + * {
+  margin-left: 12px;
+}
+
+.range > .desktop {
+  display: none;
+}
+
+.range > .range__circle {
+  width: 8px;
+  height: 8px;
+  background: #c1c7d0;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.range > .range__canopy {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.range > .range__txt {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.work-section__card--info > .desktop {
+  display: none;
+}
+
+.work-section__card--info > .general__desc {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.btn-one {
+  margin-right: 20px;
+}
+
+.work-section__card--info > .tech {
+  display: flex;
+}
+
+.tech {
+  list-style: none;
+}
+
+.tech > * + * {
+  margin-left: 8px;
+}
+
+.tech > .tech__type {
+  padding: 4px 12px;
+  border: none;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  line-height: 16px;
+}
+
+button {
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  background: #6070ff;
+  color: #fff !important;
+}
+
+.btn {
+  border: 1px solid #6070ff !important;
+  border-radius: 16px;
+  padding: 12px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  background: none;
+  color: #6070ff;
+}
+
+.work-section__card--info > .btn {
+  margin-top: 20px;
+}
+
+.image-mobile {
+  width: 400px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 958px) {
+  .work-section {
+    padding: 142px;
+  }
+
+  .work-section > .work-section__box {
+    margin: 0;
+    padding: 0;
+  }
+
+  .work-section__card {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+    max-width: 1156px;
+    margin: 0 auto;
+    align-items: stretch;
+  }
+
+  .work-section__card.active {
+    display: none !important;
+  }
+
+  .work-section__card > .mobile {
+    display: none;
+  }
+
+  .work-section__card > .desktop {
+    display: block;
+  }
+
+  .work-section__card > .order--two {
+    order: 2;
+    align-self: flex-start;
+  }
+
+  .work-section__card > .work-section__card--info {
+    padding: 24px;
+    width: 50% !important;
+  }
+
+  .work-section__card--info > .project-name {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 52px;
+  }
+
+  .work-section__card--info > .mobile {
+    display: none;
+  }
+
+  .work-section__card--info > .desktop {
+    display: block;
+  }
+
+  .range > .range__canopy {
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 0;
+  }
+
+  .range > .mobile {
+    display: none;
+  }
+
+  .range > .range__txt {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .range > .desktop {
+    display: block;
+  }
+
+  .image-desktop {
+    max-width: 450px;
+    border-radius: 10px;
+  }
+  
+
+}

@@ -1,6 +1,6 @@
 import { Close, MenuOutlined } from "@material-ui/icons";
 import React, {useState} from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Header.css"
 
 const Header = () => {
@@ -20,29 +20,24 @@ const Header = () => {
           <Close className="close" onClick={handleMenu}/>
         </div>
         <li>
-          <Link to="/">
+          <NavLink to="/" onClick={handleMenu}>
             About
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/">
-            Experience
-          </Link>
-        </li>
-        <li>
-          <Link to="/">
+          <NavLink to="/Projects" onClick={handleMenu}>
             Projects
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/">
+          <NavLink to="/Contacts" onClick={handleMenu}>
             Contacts
-          </Link>
+          </NavLink>
         </li>
         <li className="green">  
-          <Link to="/">
+          <a href="https://docs.google.com/document/d/1MsR-jqkGn9NEIxPS5ftDGdFUnQRi9t03gT0d9fXtyMU/edit?usp=sharing" target="_blank" rel="noreferrer">
             Hire me
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>

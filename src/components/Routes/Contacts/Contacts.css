@@ -1,0 +1,71 @@
+
+.contact-form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.outro__box {
+  max-width: 700px;
+}
+.contact-form__container > .outro__box {
+  text-align: center;
+}
+
+.white {
+  color: #fff !important;
+}
+
+form {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form > label {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+form > label + label {
+  margin-top: 20px;
+}
+
+label > input,
+textarea {
+  width: 100%;
+  padding: 15px 16px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+textarea {
+  margin-top: 20px !important;
+}
+
+.btn__submit > button:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border: 1px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.active {
+  color: orange;
+}
+
+@media screen and (max-width: 957px) {
+  .contact-form-section {
+    margin: 50px 20px 0;
+  } 
+}
+
+

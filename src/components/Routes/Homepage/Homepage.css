@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  background: linear-gradient(-47deg, rgba(0, 0, 0, .5), rgba(148, 48, 48, .5), rgba(167, 67, 67, .95)), url(/src/components/images/eberhard-grossgasteiger-YBPIQ3JPdvo-unsplash.jpg) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #fff ;
+}
+
+.App {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro {
+    position: relative;
+    margin-bottom: 0;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.align-left {
+    color: white;
+    max-width: 670px;
+    margin: auto;
+    padding: 15px;
+}
+
+.hello {
+  font-size: 53px;
+  color: orange;
+}
+
+.job-des {
+  font-size: 40px;
+}
+
+.belief {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.socials {
+  padding-right: 3rem;
+}
+
+.socials > ul {
+  list-style: none;
+}
+
+.socials > ul > * + * {
+  margin-top: 40px;
+}
+
+.social-icon {
+  font-size: 55px !important;
+  transition: transform 0.35s ease-in-out !important;
+}
+
+.social-icon:hover {
+  color: orange !important;
+  transform: translateX(-10px);
+}
+
+.about {
+  color: #fff;
+  text-align: justify;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  padding: 5rem 0;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -20px;
+}
+
+.desc {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.wording {
+  max-width: 600px;
+}
+
+.list {
+  margin: 10px auto;
+  width: 500px;
+}
+
+.list > li + li {
+  margin-top: 8px;
+}
+
+.list li {
+  color: orange;
+  font-size: 14px;
+}
+
+.about-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.line {
+  height: 3px;
+  width: 750px;
+  background-color: #fff;
+}
+
+.pix {
+  width: 250px;
+  border-radius: 20px;
+}
+
+.testimonials {
+  margin: 5rem auto;
+}
+
+.testimonial-title {
+  color: #fff;
+}
+
+@media screen and (max-width: 759px) {
+
+  .intro {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+
+  .hello {
+    font-size: 22px;
+    color: #fff;
+    line-height: 0px;
+    text-align: center;
+  }
+
+  .job-des {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .openner {
+    text-align: center;
+  }
+
+  .special {
+    color: orange;
+    font-size: 30px;
+  }
+
+  .belief {
+    font-size: 14px;
+  }
+
+  .align-left {
+    margin-bottom: 20px;
+  }
+
+  .socials > ul {
+    display: flex;
+  }
+
+  .socials > ul > * + * {
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+
+  .social-icon {
+    font-size: 35px !important;
+  }
+
+  .about-desc {
+    text-align: center;
+  }
+
+  .desc {
+    width: 90%;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .list {
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  .list > li {
+    font-size: 13px;
+  }
+
+  .pix {
+    display: none;
+  }
+
+  .section-two {
+    display: none;
+  }
+}
