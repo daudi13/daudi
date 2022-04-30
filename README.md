@@ -41,8 +41,8 @@ Open http://localhost:3000 to view it in your browser.
 👤 **Author 1**
 
 - GitHub: [daudi13](https://github.com/daudi13)
-- Website: []()
-- LinkedIn: [LinkedIn]()
+- Website: [daudi.netlify.app/](https://daudi.netlify.app/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/david-owour-ouma/)
 
 ## 🤝 Contributing
 
