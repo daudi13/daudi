@@ -1,8 +1,9 @@
 import React from 'react'
+import { Slide } from 'react-awesome-reveal'
 
 const Form = () => { 
   return (
-  <>
+  <Slide>
     <form id="form" action="https://formspree.io/f/mjvlgvab" method="POST">
       <label for="userName">
           <input
@@ -25,7 +26,7 @@ const Form = () => {
         <button type="submit" className="btn btn__submit">Get in touch</button>
       </div>
       </form>
-  </>
+  </Slide>
   )
 }
 

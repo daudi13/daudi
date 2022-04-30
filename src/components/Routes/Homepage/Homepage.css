@@ -87,6 +87,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(3px);
   padding: 5rem 0;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -20px;
 }
 
 .desc {

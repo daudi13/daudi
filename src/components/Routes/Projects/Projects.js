@@ -5,7 +5,10 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
   return (
     <section className="work-section" id="portfolio">
+
       <div className="work-section__box">
+        <h2 className="work-section__title">My Projects</h2>
+        <h4 className="work-section__sub-title">A selection of my range of work</h4>
         {
           modals.map((modal) => (
             <ProjectCard
