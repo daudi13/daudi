@@ -11,7 +11,7 @@ This is the second version of my Portfolio that I built using ReactJs. This Port
 
 ## Live Demo
 
-- Check it out on [Netlify]()
+- Check it out on [Netlify](https://daudi.netlify.app/Projects)
 
 ## Getting Started
 
