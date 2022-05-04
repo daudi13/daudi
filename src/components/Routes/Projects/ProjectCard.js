@@ -25,8 +25,8 @@ const ProjectCard = ({name, jobProfile, desc, skillSet, order, imageOneDesktop, 
             skills={skillSet}
             />
       }</ul>
-      <a href={liveDemo} className="btn see-project btn-one" id="one">live Demo</a>
-      <a href={gitHub} className="btn see-project" id="one">get Code</a>
+      <a href={liveDemo} target="_blank"  rel="noreferrer" className="btn see-project btn-one" id="one">live Demo</a>
+      <a href={gitHub} target="_blank"  rel="noreferrer"className="btn see-project" id="one">get Code</a>
       </div>
 </div>
   )
