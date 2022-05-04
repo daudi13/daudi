@@ -7,7 +7,7 @@ const modals = [{
   imageOneDesktop: './images/Card-images/perspectiveWild.png',
   skillSet: ['React', 'Jest', 'Thunk', 'bootstrap',],
   jobProfile: ['FREELANCER', 'Front-End Dev', 2022],
-  liveDemo:'https://6262b89a578849338355be2c--benevolent-peony-90404f.netlify.app/',
+  liveDemo:'https://perspectivewild.netlify.app/',
   gitHub: 'https://github.com/daudi13/seafood',
   API: 'https://zoo-animal-api.herokuapp.com/',
 },
